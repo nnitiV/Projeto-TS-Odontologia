@@ -45,7 +45,6 @@ main {
     position: relative; /* add this */
     font-size: 1.25rem;
     text-align: center;
-    width: 50%;
     font-family: "Literata", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -138,7 +137,7 @@ main {
 }
 
 #tratamentos {
-    width: 75%;
+    width: 90rem;
     height: 45rem;
     position: relative;
     display: flex;
@@ -149,7 +148,7 @@ main {
 }
 
 #tratamentos h2 {
-    width: 40%;
+    width: 40rem;
     position: absolute;
     right: 15rem;
     top: -5rem;
@@ -246,7 +245,7 @@ main {
 }
 
 #avaliacoes {
-    width: 75%;
+    width: 90rem;
     background-color: #E7FEFF;
     display: flex;
     flex-direction: column;
@@ -312,73 +311,75 @@ main {
     margin-right: 1.5rem;
 }
 
+.container:first-of-type {
+    margin-left: 5px;
+}
+
 .container {
     display: block;
     position: relative;
-    padding-left: 35px;
+    margin-left: 22px;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .container input {
+    font-family: "Share Tech", sans-serif;
+    font-size: 1rem;
+}
+
+.container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
+}
+
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
+    height: 20px;
+    width: 20px;
+    background-color: #2195f370; /* Cor de fundo personalizada */
     border-radius: 50%;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the radio button is checked, add a blue background */
-  .container input:checked ~ .checkmark {
-    background-color: #2196F3;
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
+    transition: background-color 0.25s ease; /* Transição suave */
+}
+
+.container:hover input ~ .checkmark {
+    background-color: rgba(202, 231, 255, 0.439)/* Cor de hover similar à paleta existente */
+}
+
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-       top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-  }
+}
 
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Estilo para as transições de fundo ao passar o mouse */
+.container input:checked ~ .checkmark {
+    background-color: #0a91ff; /* Cor consistente com os botões */
+}
+
+.form_box label {
+    margin: 1rem; /* Mantém a consistência do espaçamento */
+    color: #333;  /* Cor do texto ajustada para maior contraste */
+}
 .next-btn {
     z-index: 1;
 }
 
 #missao {
-    width: 75%;
+    width: 90rem;
     background-color: #20B4B8;
     display: flex;
     flex-direction: column;
@@ -411,13 +412,14 @@ footer {
 
 footer #icons {
     font-size: 4rem;
-    width: 50%;
+    width: 50rem;
     display: flex;
     margin-bottom: 5rem;
     justify-content: space-around;
 }
 
 footer #icons a {
+    
     text-decoration: none;
     color: black;
 }
@@ -432,3 +434,22 @@ footer p {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1500px) {
+    #tratamentos, #option, #option.active, #lente:hover, #lente {border-radius: 0;}
+    #tratamentos, #avaliacoes, #missao, footer {width: 100%;}
+    #tratamentos h2 {right: 9rem;}
+    #missao {padding: 5rem 4rem;}
+}
+
+@media only screen and (max-width: 1200px) {
+    #tratamentos h2 {right: 7.5rem;}
+    #missao {padding: 5rem 2rem;}
+    #form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+    .form_box{margin: 5rem 0 0;}
+}
+@media only screen and (max-width: 1100px) {#tratamentos h2 {right: 3.5rem;}}
+@media only screen and (max-width: 1000px) {#tratamentos h2 {right: 1.5rem;}}
