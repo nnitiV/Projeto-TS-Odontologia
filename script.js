@@ -42,6 +42,7 @@ outros.addEventListener('click', () => {
   treatmentText.innerHTML = 'Manter a saúde bucal em dia é de extrema importância para garantir uma qualidade de vida melhor. As consultas de limpeza preventivas ajudam a manter um hálito fresco e a estética do sorriso, contribuindo para a autoestima e a confiança.<br>Um dos cuidados fundamentais para isso são as consultas de limpeza preventivas. Essas consultas são essenciais para remover o acúmulo de placa bacteriana e tártaro nos dentes, prevenindo problemas como cáries, gengivite e periodontite.<br>Além disso, durante essas consultas, o dentista realiza uma avaliação completa da saúde bucal, identificando precocemente possíveis doenças ou alterações. Dessa forma, é possível realizar o tratamento adequado de forma precoce e eficiente, evitando dores e perda dos dentes.';
   treatmentText.style.marginTop = "-3rem";
   if(screen.width < 1200) treatmentText.style.marginTop = "-6rem";
+  if(screen.width < 400) descricao.style.paddingTop = "8rem";
   setActive(outros);
 });
 

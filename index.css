@@ -489,7 +489,7 @@ footer p {
     }
 
     #avaliacoes .carroussel i {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -498,6 +498,16 @@ footer p {
 @media only screen and (max-width: 400px) {main {width: 115%;}}
 @media only screen and (max-width: 385px) {
     main {width: 116.5%;}
+
+    #missao h2 {
+        font-size: 2rem;
+    }
+
+    #missao p, footer p {
+        font-size: 1rem;
+        margin-top: -2rem;
+    }
+
     footer {
         width: 116.5%;
         padding: 1rem;
