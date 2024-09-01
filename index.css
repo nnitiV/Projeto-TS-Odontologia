@@ -428,6 +428,7 @@ footer p {
         flex-direction: column;
         margin-left: 5rem;
         margin: 0;
+        padding: 0;
     }
     .form_box{margin: 5rem 0 0;}
 
@@ -463,6 +464,10 @@ footer p {
 
 @media only screen and (max-width: 900px) {#tratamentos h2 {right: 6rem}}
 @media only screen and (max-width: 800px) {
+    html {
+        width: 122.5%;
+    }
+
     #tratamentos h2 {
         right: 5rem;
         width: 20rem;
