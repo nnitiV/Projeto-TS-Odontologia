@@ -343,24 +343,6 @@ main {
     background-color: rgba(202, 231, 255, 0.439)/* Cor de hover similar à paleta existente */
 }
 
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-.container input:checked ~ .checkmark:after {
-    display: block;
-}
-
-.checkmark:after {
-    top: 7px;
-    left: 7px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: white;
-}
 
 /* Estilo para as transições de fundo ao passar o mouse */
 .container input:checked ~ .checkmark {
@@ -409,7 +391,7 @@ footer {
 
 footer #icons {
     font-size: 4rem;
-    width: 50rem;
+    width: 100%;
     display: flex;
     margin-bottom: 5rem;
     justify-content: space-around;
@@ -445,6 +427,7 @@ footer p {
         display: flex;
         flex-direction: column;
         margin-left: 5rem;
+        margin: 0;
     }
     .form_box{margin: 5rem 0 0;}
 
