@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
 
+
 * {
     user-select: none;
     margin: 0 ;
     padding: 0 ;
     box-sizing: border-box ;
-    
 }
 
 img {
@@ -16,8 +16,8 @@ img {
     height: 350px;
 }
 
-body{
-    overflow-x: hidden;
+body {
+    background-color: rgba(255, 255, 240, 0.452)
 }
 
 #logo {
@@ -290,16 +290,13 @@ main {
     position: absolute;
     transition: opacity 1.5s;
     opacity: 0;
-    left: 500rem;
     width: 600px;
 }
 
 #avaliacoes .carroussel .carousel-items .carousel-item.active{
     position: absolute;
-    left: 0;
     opacity: 1;
     border-radius: 2rem;
-    width: 600px;
 }
 
 #avaliacoes .radio-selection-carousel {
@@ -487,5 +484,23 @@ footer p {
         right: 5rem;
         width: 20rem;
     }
+
+    #avaliacoes .carroussel .carousel-items, #avaliacoes .carroussel .carousel-items .carousel-item {
+        width: 500px;
+    }
+
+    #avaliacoes .carroussel i {
+        font-size: 2rem;
+    }
 }
 @media only screen and (max-width: 600px) {#tratamentos h2 {right: 4rem}}
+@media only screen and (max-width: 600px) {
+    #avaliacoes .carroussel .carousel-items, #avaliacoes .carroussel .carousel-items .carousel-item {
+        width: 400px;
+        height: 250px;
+    }
+
+    #avaliacoes .carroussel i {
+        font-size: 1rem;
+    }
+}
