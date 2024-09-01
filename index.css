@@ -460,4 +460,32 @@ footer p {
     }
 }
 @media only screen and (max-width: 1100px) {#tratamentos h2 {right: 3.5rem;}}
-@media only screen and (max-width: 1000px) {#tratamentos h2 {right: 1.5rem;}}
+@media only screen and (max-width: 1000px) {
+    #tratamentos h2 {
+        right: 8rem;
+        top: -4rem;
+        font-size: 1.4rem;
+        width: 27.5rem;
+    }
+    #option p {
+        font-size: 1rem;
+    }
+
+    #descricao {
+        padding-top: 15rem;
+    }
+
+    #descricao p {
+        line-height: 2rem;
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {#tratamentos h2 {right: 6rem}}
+@media only screen and (max-width: 800px) {
+    #tratamentos h2 {
+        right: 5rem;
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 600px) {#tratamentos h2 {right: 4rem}}

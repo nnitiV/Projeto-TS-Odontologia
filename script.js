@@ -4,6 +4,7 @@ const tratamento = document.getElementById('tratamento');
 const outros = document.getElementById('outros');
 
 const treatmentText = document.getElementById('treatment-text');
+const treatmentBox = document.getAnimations("descricao");
 
 const setActive = (activeElement) => {
     // Remove a classe active de todos os elementos
@@ -32,7 +33,8 @@ tratamento.addEventListener('click', () => {
   treatmentText.innerHTML = 'O tratamento de canal dentário, muitas vezes é realizado em sessão única e é de extrema importância quando a polpa do dente está infectada por bactérias ou traumatizada devido à cárie profunda ou fratura, o tratamento de canal é a única opção para salvar o dente. <br>Durante o procedimento, o dentista remove o tecido infectado e limpa o canal, preenche-o com um material certo para evitar a reinfecção. Além de aliviar a dor imediatamente  e permitir que você mastigue normalmente, o tratamento de canal também ajuda a evitar a propagação da infecção para outraos dentes.<br>Se não tratado, um dente com infecção na polpa pode levar a complicações mais sérias, como abscessos dentários. Portanto, é essencial procurar um dentista assim que sentir dor persistente ou sensibilidade ao comer ou beber.';
   treatmentText.style.width = "100%";
   if(screen.width < 1200) treatmentText.style.marginTop = "-7rem";
-treatmentText.style.marginTop = "-7rem";
+  if(screen.width < 800) descricao.style.paddingTop = '10rem';
+  treatmentText.style.marginTop = "-7rem";
   setActive(tratamento);
 });
 
