@@ -478,6 +478,10 @@ footer p {
     }
     .form_box{margin: 5rem 0 0;}
 
+    #box-tratamentos {
+        width: 75%;
+    }
+
     #box-tratamentos div {
         font-size: 1.5rem;
     }
