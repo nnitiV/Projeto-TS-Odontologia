@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 8vh;
+}
+
 main {
     width: 70vw;
     font-family: "Literata", serif;
@@ -29,6 +33,8 @@ main #trat-ger div h2 {
 }
 
 main #trat-ger div {
+    display: flex;
+    flex-direction: column;
     width: 35rem;
     text-align: left;
     justify-content: center;
@@ -39,6 +45,11 @@ main #trat-ger div {
 
 main #trat-ger div p {
     margin: 2rem 0;
+}
+
+main #trat-ger div ul {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 main #trat-ger div ul li {
