@@ -20,7 +20,6 @@ main #trat-ger{
     text-align: center;
     margin: 1.5rem auto 0;
     border-radius: 2rem;
-    
 }
 
 main #trat-ger div h2 {
@@ -90,4 +89,63 @@ main #beneficios ul li {
 
 main #beneficios ul li i { 
     margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    main h2 {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    main #beneficios {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    main #trat-ger div p {
+        width: 50vw;
+        text-align: center;
+        margin: 5vw auto;
+        font-size: 1.3vw;
+    }
+
+    main #beneficios ul {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    main #beneficios li {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        font-size: 1.5vw;
+    }
+
+    main #beneficios h2 {
+        margin-bottom: 2.5rem;
+    }
+
+    main #beneficios li i {
+        margin: 1.5vw 0;
+    }
+
+    main #trat-ger, main #beneficios {
+        flex-direction: column;
+        font-size: 1vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #trat-ger img {
+        width: 13vw;
+        height: 13vw;
+    }
+
+    main #beneficios img {
+        width: 18vw;
+        height: 18vw;
+        margin-bottom: 3.5rem;
+    }
+
 }

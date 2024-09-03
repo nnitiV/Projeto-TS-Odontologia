@@ -406,6 +406,13 @@ footer {
     padding-bottom: 2.5rem;
 }
 
+footer #whatsapp {
+    position: fixed;
+    bottom: 75px; 
+    right: 150px;  
+    z-index: 1000;
+}
+
 footer #planos {
     display: flex;
     flex-direction: column;
