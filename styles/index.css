@@ -1,597 +1,493 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 
 * {
-    user-select: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    padding-bottom: .5rem;
+    box-sizing: border-box;
 }
 
-img {
-    width: 550px;
-    height: 350px;
-}
-
-header {
-    width: 25rem;
-    margin: 0 auto;
-    background-attachment: red;
-}
-
-header #logo {
-    width: 25rem;
-    height: 15rem;
-}
-
-#logo {
-    width: 27rem;
-    height: 13.5rem;
-    display: flex;
-}
-
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-}
-
-#form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    margin-top: 8rem;
-    margin-right: 3rem;
-    margin-bottom: 5rem;
-}
-
-#form .form-left {
-    position: relative; /* add this */
-    font-size: 1.25rem;
-    text-align: center;
-    font-family: "Literata", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    height: fit-content;
-    margin-top: 5rem;
-}
-
-.form-left h1 {
-    font-weight: 500;
-    z-index: 1;
-}
-
-#form .form-left h1:last-of-type {
-    margin-bottom: 35px;
-}
-
-#form .form-left img {
-    border-radius: 2rem;
-    width: 35rem;
-    height: 25rem;
-}
-
-.form_box {
-    width: 30rem;
-    background-color: #e1d29c;
-    padding: 1rem;
-    margin-left: 8rem;
-    border-radius: 4rem;
-}
-
-.form_box form {
-    display: block;
-    margin-top: 15px;
-}
-
-.form_box label {
-    display: block;
-    font-weight: bold;
-    font-family: "Share Tech", sans-serif;
-}
-
-.form_box #mensagem {
-    margin-top: .25rem;
-}
-
-.form_box textarea {
-    width: 75%;
-    border-radius: 1rem;
-    border: none;
-    padding: 1rem;
-}
-
-.form_box form input {
-    width: 75%;
-    margin: -.75rem auto 0;
-    height: 1px;
-    text-align: center;
-    display: block;
-    border-radius: 12px;
-    padding: .9rem 0;
-    border: none;
-}
-
-.form_box h2 {
-    font-family: "Share Tech", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1.75rem;
-    word-spacing: 15px;
-    line-height: 2.5rem;
-}
-
-.form_box h2:last-of-type {
-    margin-bottom: .5rem;
-}
-
-.form_box hr {
-    width: 100%;
-    border: 1px dashed black;
-    margin: 2rem 0;
-}
-
-.form_box button {
-    padding: 1rem 6rem;
-    border: none;
-    border-radius: 14px;
-    background-color: #2196F3;
-    font-weight: bold;
-    color: white;
-}
-
-.form_box button:hover{
-    cursor: pointer;
-    transition: .2s;
-    background-color: #9ACAF8;
-}
-
-#tratamentos, #avaliacoes, #missao {
-    width: 70rem;
-}
-
-#tratamentos {
-    display: flex;
-    height: 35rem;
-    position: relative;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #20B4B8;
-    margin: 8.5rem auto 0;
-}
-
-#tratamentos h2 {
-    padding: 1.5rem 4rem;
-    position: absolute;
-    left: 50%;
-    top: -5rem;
-    transform: translateX(-50%);
-    font-size: 2.5rem;
-    letter-spacing: .25rem;
-    font-family: "Baskervville", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    margin: 0 auto 0;
-    text-align: center;
-    background-color: #20B4B8;
-    border-radius: 1rem;
-    box-shadow: 1px 3px 1px white;
-    z-index: 1;
-}
-
-#box-tratamentos {
-    width: 50%;
-    height: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-}
-
-#box-tratamentos a{
+button a {
     text-decoration: none;
-}
-
-#box-tratamentos p {
-    font-size: 1.5rem;
-    color: white;
-    font-weight: bold;
-    margin-top: 2rem;
-}
-
-#box-tratamentos div img {
-    display: block;
-    margin: 0 auto 1rem;
-    width: 105px;
-    height: 105px;
-}
-
-#outros, #tratamento, #implante, #lente {
-    width: 100%;
-}
-
-#outros:hover, #tratamento:hover, #implante:hover, #lente:hover {
-    transition: background-color 0.25s;
-    width: 100%;
-    background-color: #20B4B8;
-    cursor: pointer;
-}
-
-#lente {
-    border-radius: 4rem 0 0 0;
-    transition: background-color 0.25s, border-radius 0s;
-}
-
-#lente:hover {
-    background-color: #20B4B8;
-    border-radius: 4rem 0 0 0;
-}
-
-#avaliacoes {
-    background-color: #E7FEFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem 0;
-}
-
-
-#avaliacoes h2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 3rem;
-}
-
-#avaliacoes .carroussel {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-
-#avaliacoes .carroussel i{
-    font-size: 3rem;
-    z-index: 2;
-}
-
-#avaliacoes .carroussel i:hover{
-    cursor: pointer;
-}
-
-#avaliacoes .carroussel .carousel-items{
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 275px;
-}
-
-#avaliacoes .carroussel .carousel-items .carousel-item{
-    position: absolute;
-    transition: opacity 1.5s;
-    opacity: 0;
-    width: 500px;
-    height: 275px;
-}
-
-#avaliacoes .carroussel .carousel-items .carousel-item.active{
-    position: absolute;
-    opacity: 1;
-    border-radius: 2rem;
-}
-
-#avaliacoes .radio-selection-carousel {
-    display: flex;
-    margin-top: 3.5rem;
-}
-
-#avaliacoes .radio-selection-carousel label{
-    margin-right: 1.5rem;
-}
-
-.container:first-of-type {
-    margin-left: 5px;
-}
-
-.container {
-    display: block;
-    position: relative;
-    margin-left: 22px;
-    cursor: pointer;
-    user-select: none;
-    font-family: "Share Tech", sans-serif;
-    font-size: 1rem;
-}
-
-.container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.checkmark {
-    transition: .2s;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    border: .1px solid rgba(0, 0, 0, 0.1);
-    background-color: #008cff26; /* Cor de fundo personalizada */
-    border-radius: 50%;
-    transition: background-color 0.25s ease; /* Transição suave */
-}
-
-.container:hover input ~ .checkmark {
-    background-color: rgb(202, 231, 255)/* Cor de hover similar à paleta existente */
-}
-
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-      top: 5px;
-      left: 5px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-  }
-
-/* Estilo para as transições de fundo ao passar o mouse */
-.container input:checked ~ .checkmark {
-    background-color: #0a91ff; /* Cor consistente com os botões */
-}
-
-.form_box label {
-    margin: 1rem; /* Mantém a consistência do espaçamento */
-    color: #333;  /* Cor do texto ajustada para maior contraste */
-}
-.next-btn {
-    z-index: 1;
-}
-
-#missao {
-    background-color: #20B4B8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem 15rem;
     color: white;
 }
 
-#missao h2 {
-    font-weight: bold;
-    font-size: 2.5rem;
-    margin-bottom: 2.5rem;
-}
-
-#missao p {
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    padding-bottom: 2.5rem;
-}
-
-footer #whatsapp {
-    position: fixed;
-    bottom: 75px; 
-    right: 150px;  
-    z-index: 1000;
-}
-
-footer #planos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 5rem;
-}
-
-footer #planos h2 {
-    font-size: 1.5rem;
-    color: rgb(88, 80, 80);
-    margin-bottom: 2.5rem;
-}
-
-footer #planos #planos-img {
-    width: 50vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer #planos #planos-img img {
-    width: 10rem;
-    height: 7rem;
-}
-
-footer #icons {
-    font-size: 4rem;
-    width: 50%;
-    display: flex;
-    margin-bottom: 5rem;
-    justify-content: space-around;
-}
-
-footer #icons a {
+a {
     text-decoration: none;
     color: black;
 }
 
-footer #icons i:hover {
+body {
+    background-color: #C3C0AF;
+}
+
+body #floating_whatsapp {
+    position: fixed;
+    bottom: 2.5vw;
+    right: 5vw;
+    font-size: 4vw;
+    color: #40ac22;
+    transition: .3s;
+}
+
+body #floating_whatsapp:hover {
+    cursor: pointer;
+    color: #37ff00;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 24vw;
+    height: 16vw;
+}
+
+main {
+    text-align: center
+}
+
+main #main_part h1 {
+    font-family: "Wire One", sans-serif;
+    font-size: 4vw;
+    margin-bottom: 7vh;
+}
+
+main #main_part div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+main #main_part div img {
+    height: 15vw;
+    width: 25vw;
+    border-radius: .5vw;
+}
+
+main #main_part div h2 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+main #main_part button {
+    background-color: #3a9c1e;
+    width: 25vw;
+    padding: 2vw 0;
+    font-size: 1.5vw;
+    color: white;
+    border: none;
+    margin-top: 8vh;
+    border-radius: 1vw;
+}
+
+main #main_part button:hover {
+    cursor: pointer;
+    background-color: #40d616;
+    transition: .2s;
+}
+
+main #clareamento_dental {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+main #clareamento_dental h2 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin: 8vh 0;
+}
+
+
+main #clareamento_dental p {
+    font-size: 1.5vw;
+}
+
+main #carousel_clareamento_dental {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #carousel_clareamento_dental #carousel_content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vw;
+    height: 25vw;
+    font-size: 2vw;
+    margin: 5vw auto -2vw;
+}
+
+main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container {
+    position: relative;
+    padding: 8vw 12vw;
+    height: fit-content;
+    margin-bottom: 5vw;
+}
+
+main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24.9vw;
+    height: 18.6vw;
+    opacity: 0;
+}
+
+main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img.active {
+    opacity: 1;
+    transition: .5s;
+}
+
+main #carousel_clareamento_dental #carousel_content i {
+    font-size: 2.85vw;
+}
+
+main #carousel_clareamento_dental #carousel_content i:hover {
     cursor: pointer;
 }
 
-footer p {
-    font-size: 1.5rem;
+main #carousel_clareamento_dental #carousel_radio_buttons {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+
+main #carousel_clareamento_dental #carousel_radio_buttons input {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 4vw;
+    margin-bottom: 2vw;
+    appearance: none; /* Hide the native radio button */
+    border: 1px solid #27221E;
+    background-color: #5c5048;
+}
+
+main #carousel_clareamento_dental #carousel_radio_buttons input:hover {
+    cursor: pointer;
+    background-color: #27221E;
+}
+
+main #carousel_clareamento_dental #carousel_radio_buttons input:checked {
+    background-color: #27221E; /* Example checked state */
+}
+
+main #nossos_tratamentos h2{
+    width: 100%;
+    padding: 2vw 0;
+    font-size: 1.65vw;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    background-color: #857854;
+    color: white;
+}
+
+main #nossos_tratamentos #todos_tratamentos {
+    width: 65vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main #nossos_tratamentos #todos_tratamentos #tratamento h3 {
+    font-size: 2vw;
+    color: white;
+    margin: 4vw 0 2vw;
+}
+
+main #nossos_tratamentos #todos_tratamentos #tratamento img {
+    width: 15vw;
+    border-radius: .5vw;
+}
+
+main #avaliacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #avaliacoes #carousel_content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 50vw;
+    height: 25vw;
+    font-size: 2vw;
+    margin: 0vw auto -2vw;
+}
+
+main #avaliacoes #carousel_content #carousel_avaliacoes_images_container {
+    position: relative;
+    padding: 6.15vw 12.45vw;
+    height: fit-content;
+    margin-bottom: 2vw;
+}
+
+main #avaliacoes #carousel_content #carousel_avaliacoes_images_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24.9vw;
+    height: 12.6vw;
+    opacity: 0;
+}
+
+main #avaliacoes #carousel_content #carousel_avaliacoes_images_container img.active {
+    opacity: 1;
+    transition: .5s;
+}
+
+main #avaliacoes #carousel_content i {
+    font-size: 2.85vw;
+}
+
+main #avaliacoes #carousel_content i:hover {
+    cursor: pointer;
+}
+
+main #avaliacoes #carousel_radio_buttons_avaliacao {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -2.5vw;
+}
+
+main #avaliacoes #carousel_radio_buttons_avaliacao input {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 4vw;
+    appearance: none; /* Hide the native radio button */
+    border: 1px solid #27221E;
+    background-color: #5c5048;
+}
+
+main #avaliacoes #carousel_radio_buttons_avaliacao input:hover {
+    cursor: pointer;
+    background-color: #27221E;
+}
+
+main #avaliacoes #carousel_radio_buttons_avaliacao input:checked {
+    background-color: #27221E; /* Example checked state */
+}
+
+main #avaliacoes h2 {
+    width: 100%;
+    padding: 2vw 0;
+    font-size: 1.65vw;
+    margin: 8vw 0 2vw;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #46392A;
+    color: white;
+}
+
+main #missao h2 {
+    width: 100%;
+    padding: 2vw 0;
+    font-size: 1.65vw;
+    margin: 8vw 0 2vw;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #312C25;
+    color: white;
+}
+
+main #missao div {
+    position: relative;
+    width: 45vw;
+    background-color: #1E1E1E;
+    font-size: 2vw;
+    color: #D2AB58;
+    margin-left: 35vw;
+    margin-top: 6vw;
+    padding: 2vw 2vw 2vw 5vw;
+}
+
+main #missao div img{
+    position: absolute;
+    width: 23vw;
+    left: -20vw;
+    top: -3vw;
+}
+
+main #divisor {
+    background-color: #312C25;
+    padding: 1vw 0;
+    margin: 6vw 0;
+}
+
+footer #planos_odontologicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer #planos_odontologicos h3 {
+    font-size: 3vw;
+    color: white;
+    margin-bottom: 4vw;
+}
+
+footer #planos_odontologicos #planos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+}
+
+footer #planos_odontologicos #planos img {
+    width: 15vw;
+}
+
+footer #planos_odontologicos #planos img:first-of-type {
+    width: 17vw;
+    height: 15vw;
+}
+
+footer #planos_odontologicos #planos img:last-of-type {
+    height: 6vw;
+    width: 14vw;
+    margin-top: 1vw;
+}
+
+footer #agendar_form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    flex-direction: column;
+    width: 33.5vw;
+    height: 30vw;
+    margin: 0 auto;
+    padding: 4vw 4vw;
+    background-image: url('../img/form_background.png');
+    background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+footer #agendar_form h2{
+    position: absolute;
+    top: 3vw;
+    font-size: 2.5vw;
+}
+
+footer #agendar_form h3{
+    position: absolute;
+    top: 9vw;
+    font-size: 1.75vw;
+}
+
+footer #agendar_form button {
+    position: absolute;
+    top: 20vw;
+    background-color: #64B74D;
+    border: .2vw solid #38662b;
+    width: 25vw;
+    font-size: 1.5vw;
+    padding: 1vw 0;
+    color: white;
+    border-radius: 1vw;
+}
+
+footer #agendar_form button:hover {
+    cursor: pointer;
+    background-color: #4aca26;
+    transition: .2s;
+}
+
+footer #redes_sociais {
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vw;
+    width: 29.5vw;
+    margin: 8vw auto 0;
     font-weight: bold;
 }
 
-@media only screen and (max-width: 1500px) {
-    #tratamentos, #box-tratamentos, #box-tratamentos.active, #lente:hover, #lente {border-radius: 0;}
-    #tratamentos, #avaliacoes, #missao, footer {width: 100%;}
-    #tratamentos h2 {right: 9rem;}
-    #missao {padding: 5rem 4rem;}
+footer #redes_sociais i:hover {
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 1200px) {
-    #tratamentos h2 {right: 7.5rem;}
-    #missao {padding: 5rem 2rem;}
-    #form{
-        display: flex;
-        flex-direction: column;
-        margin-left: 5rem;
-        margin: 0;
-        padding: 0;
-    }
-    .form_box{margin: 5rem 0 0;}
-
-    #box-tratamentos {
-        width: 75%;
-    }
-
-    #box-tratamentos div {
-        font-size: 1.5rem;
-    }
-
-    #descricao p{
-        margin-top: -2rem;
-    }
+footer #endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 6vw 0 2vw;
 }
-@media only screen and (max-width: 1100px) {#tratamentos h2 {right: 3.5rem;}}
-@media only screen and (max-width: 1000px) {
-    #tratamentos h2 {
-        font-size: 1.4rem;
-        width: 27.5rem;
-    }
-    #box-tratamentos p {
-        font-size: 1rem;
-    }
 
-    #descricao {
-        padding-top: 15rem;
-    }
+footer #endereco p {
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+}
 
-    #descricao p {
-        line-height: 2rem;
-        font-size: .7rem;
+
+@media (max-width: 850px) {
+    main #carousel_clareamento_dental #carousel_radio_buttons input, 
+    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 1.15vw;
     }
 }
 
-@media only screen and (max-width: 900px) {#tratamentos h2 {right: 6rem}}
-@media only screen and (max-width: 800px) {
-    footer #planos #planos-img {
-        width: 35rem;
-        margin: 0 auto;
-    }
-
-    footer #planos #planos-img img {
-        width: 10rem;
-        height: 7rem;
-    }
-
-    html {
-        width: 122.5%;
-    }
-
-    #tratamentos h2 {
-        width: 20rem;
-    }
-
-    #avaliacoes .carroussel .carousel-items, #avaliacoes .carroussel .carousel-items .carousel-item {
-        width: 500px;
-    }
-
-    #avaliacoes .carroussel i {
-        font-size: 2rem;
-    }
-    footer #whatsapp {
-        right: 30px;
-    }
-}
-@media only screen and (max-width: 600px) {#tratamentos h2 {right: 4rem}}
-@media only screen and (max-width: 600px) {
-    #avaliacoes .carroussel .carousel-items, #avaliacoes .carroussel .carousel-items .carousel-item {
-        width: 400px;
-        height: 250px;
-    }
-
-    #avaliacoes .carroussel i {
-        font-size: 1.5rem;
-    }
-
-    #form .form-left img {
-        border-radius: 2rem;
-        width: 25rem;
-        height: 20rem;
+@media (max-width: 800px) {
+    main #carousel_clareamento_dental #carousel_radio_buttons input, 
+    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 1.25vw;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    main {
-        width: 100%;
+@media (max-width: 750px) {
+    main #carousel_clareamento_dental #carousel_radio_buttons input, 
+    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 1.4vw;
     }
-
-    footer #planos #planos-img {
-        justify-content: space-between;
-        width: 25rem;
-    }
-    
-    footer #planos #planos-img img {
-        width: 6rem;
-        height: 4rem;
-    }
-
-    
 }
-@media only screen and (max-width: 410px) {main {width: 112%;}}
-@media only screen and (max-width: 400px) {main {width: 115%;}}
-@media only screen and (max-width: 385px) {
-    main {width: 116.5%;}
 
-    #missao h2 {
-        font-size: 2rem;
+@media (max-width: 700px) {
+    main #carousel_clareamento_dental #carousel_radio_buttons input,
+     main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 1.45vw;
     }
+}
 
-    #missao p, footer p {
-        font-size: 1rem;
-        margin-top: -2rem;
+
+@media (max-width: 600px) {
+    main #carousel_clareamento_dental #carousel_radio_buttons input, 
+    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 1.8vw;
+        height: .5vw;
     }
+}
 
-    footer {
-        width: 116.5%;
-        padding: 1rem;
+@media (max-width: 400px) {
+    main #carousel_clareamento_dental #carousel_radio_buttons input, 
+    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 2.25vw;
+        height: 1vw;
     }
 }
