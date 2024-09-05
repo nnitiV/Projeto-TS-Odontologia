@@ -128,7 +128,6 @@ main #carousel_clareamento_dental #carousel_content {
 main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container {
     position: relative;
     padding: 8vw 12vw;
-    height: fit-content;
     margin-bottom: 5vw;
 }
 
@@ -455,9 +454,152 @@ footer #endereco p {
 }
 
 @media (max-width: 800px) {
-    main #carousel_clareamento_dental #carousel_radio_buttons input, 
-    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+    header img {
+        width: 75vw;
+        height: 45vw;
+    }
+    
+    main #carousel_clareamento_dental #carousel_radio_buttons input {
         width: 1.25vw;
+    }
+
+    main #avaliacoes #carousel_radio_buttons_avaliacao input {
+        width: 1.5vw;
+    }
+
+    main #main_part h1{
+        font-size: 10vw;
+    }
+
+    main #main_part div {
+        width: 80vw;
+    }
+
+    main #main_part div img{
+        width: 35vw;
+        height: 25vw;
+    }
+
+    main #main_part div h2{
+        font-size: 4vw;
+    }
+
+    main #main_part button {
+        width: 50vw;
+        padding: 4vw 0;
+        font-size: 4vw;
+        margin-top: 8vh;
+        border-radius: 1vw;
+    }
+
+    main #clareamento_dental {
+        width: 80vw;
+    }
+
+    main #clareamento_dental h2 {
+        font-size: 6vw;
+    }
+
+    main #clareamento_dental p {
+        font-size: 4vw;
+    }
+
+    main #carousel_clareamento_dental #carousel_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        height: 40vw;
+    }
+    
+    main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container {
+        padding: 20vw 30vw;
+        margin-bottom: 5vw;
+    }
+
+    main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img {
+        width: 60vw;
+        height: 42.5vw;
+    }
+
+    main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img.active{
+        opacity: 1;
+    }
+
+    main #carousel_clareamento_dental #carousel_content i {
+        font-size: 6vw;
+    }
+
+    main #carousel_clareamento_dental #carousel_radio_buttons  {
+        width: 30vw;
+    }
+
+    main #nossos_tratamentos #todos_tratamentos {
+        width: 80vw;
+    }
+
+    main #nossos_tratamentos h2,
+    main #avaliacoes h2,
+    main #missao h2 {
+        font-size: 4vw;
+    }
+
+    main #nossos_tratamentos #todos_tratamentos #tratamento h3{
+        font-size: 4vw;
+    }
+
+    main #nossos_tratamentos #todos_tratamentos #tratamento img {
+        width: 30vw;
+    }
+
+    main #avaliacoes h2 {
+        font-size: 4vw;
+    }
+    main #avaliacoes #carousel_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        height: 40vw;
+    }
+
+    main #avaliacoes #carousel_content #carousel_avaliacoes_images_container {
+        padding: 10vw 25vw;
+        margin-bottom: 5vw;
+    }
+
+    main #avaliacoes #carousel_content #carousel_avaliacoes_images_container img {
+        width: 50vw;
+        height: 27vw;
+    }
+
+    main #avaliacoes #carousel_content i{
+        font-size: 6vw;
+    }
+
+    main #avaliacoes #carousel_radio_buttons_avaliacao {
+        width: 45vw;
+    }
+
+    footer #redes_sociais i {
+        font-size: 9vw;
+    }
+
+    footer #endereco p{
+        font-size: 5vw;
+    }
+
+    footer #planos_odontologicos h3{
+        font-size: 6vw;
+    }
+
+    footer #planos_odontologicos #planos img
+    {
+        width: 30vw;
+    }
+
+    footer #planos_odontologicos #planos img:first-of-type {
+        width: 340vw;
     }
 }
 
