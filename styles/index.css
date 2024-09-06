@@ -150,7 +150,7 @@ main #carousel_clareamento_dental h2 {
     width: 100%;
     background-color: #312C25;
     color: white;
-    padding: 2vw 0;
+    padding: 1vw 0;
     font-size: 2vw;
     font-weight: bold;
     margin: 8vh 0 -4vw;
@@ -626,6 +626,7 @@ footer #endereco p {
         margin-left: -8vw;
         width: 40vw;
     }
+
 
     main #nossos_tratamentos #todos_tratamentos #tratamento h3{
         font-size: 3vw;
