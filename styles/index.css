@@ -752,4 +752,13 @@ footer #endereco p {
         width: 2.25vw;
         height: 1vw;
     }
+
+    main #missao div {
+        width: 55vw;
+        height: 50vw;
+    }
+
+    main #missao div p {
+        font-size: 2.75vw;
+    }
 }
