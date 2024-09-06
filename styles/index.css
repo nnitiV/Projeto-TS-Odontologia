@@ -85,6 +85,7 @@ main #missao div {
     margin-left: 35vw;
     margin-top: 6vw;
     padding: 2vw 2vw 2vw 5vw;
+    border-radius: 1vw;
 }
 
 main #missao div img{
@@ -92,6 +93,7 @@ main #missao div img{
     width: 20vw;
     left: -16vw;
     top: -3vw;
+    border-radius: .5vw;
 }
 
 main #main_part h1 {
@@ -183,6 +185,7 @@ main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images
     width: 24.9vw;
     height: 18.6vw;
     opacity: 0;
+    border-radius: 1vw;
 }
 
 main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img.active {
@@ -289,6 +292,7 @@ main #avaliacoes #carousel_content #carousel_avaliacoes_images_container img {
     top: 0;
     left: 0;
     width: 24.9vw;
+    border-radius: 1vw;
     height: 12.6vw;
     opacity: 0;
 }
@@ -398,6 +402,7 @@ footer #agendar_form {
     text-align: center;
     flex-direction: column;
     width: 33.5vw;
+    border-radius: 2vw;
     height: 30vw;
     margin: 0 auto;
     padding: 4vw 4vw;
