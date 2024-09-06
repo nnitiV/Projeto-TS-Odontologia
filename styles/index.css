@@ -39,20 +39,66 @@ body #floating_whatsapp:hover {
 header {
     display: flex;
     justify-content: center;
+    padding: 2vw 0;
 }
 
 header img {
-    width: 24vw;
-    height: 16vw;
+    width: 16vw;
+    height: 11vw;
 }
 
 main {
     text-align: center
 }
 
+main #missao {
+    height: 40vw;
+    margin-bottom: 25vw;
+}
+
+main #missao h2 {
+    width: 100%;
+    padding: 1.25vw 0;
+    font-size: 2vw;
+    margin: 2vw 0 12vw;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #312C25;
+    color: white;
+}
+
+main #missao div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 45vw;
+    height: 25vw;
+    background-color: #1E1E1E;
+    font-size: 1.4vw;
+    color: #D2AB58;
+    margin-left: 35vw;
+    margin-top: 6vw;
+    padding: 2vw 2vw 2vw 5vw;
+}
+
+main #missao div img{
+    position: absolute;
+    width: 20vw;
+    left: -16vw;
+    top: -3vw;
+}
+
 main #main_part h1 {
-    font-family: "Wire One", sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
+    width: 100%;
+    background-color: #312C25;
+    color: white;
+    text-transform: uppercase;
+    padding: 1vw 0;
     margin-bottom: 7vh;
 }
 
@@ -61,7 +107,7 @@ main #main_part div {
     justify-content: space-around;
     align-items: center;
     width: 75vw;
-    margin: 0 auto;
+    margin: 7vw auto 0;
 }
 
 main #main_part div img {
@@ -76,6 +122,7 @@ main #main_part div h2 {
 }
 
 main #main_part button {
+    position: relative;
     background-color: #3a9c1e;
     width: 25vw;
     padding: 2vw 0;
@@ -92,27 +139,23 @@ main #main_part button:hover {
     transition: .2s;
 }
 
-main #clareamento_dental {
-    width: 50vw;
-    margin: 0 auto;
-}
-
-main #clareamento_dental h2 {
-    font-size: 2.5vw;
-    font-weight: bold;
-    margin: 8vh 0;
-}
-
-
-main #clareamento_dental p {
-    font-size: 1.5vw;
-}
-
 main #carousel_clareamento_dental {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3vw;
 }
+
+main #carousel_clareamento_dental h2 {
+    width: 100%;
+    background-color: #312C25;
+    color: white;
+    padding: 2vw 0;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 8vh 0 -4vw;
+}
+
 
 main #carousel_clareamento_dental #carousel_content {
     display: flex;
@@ -179,24 +222,28 @@ main #carousel_clareamento_dental #carousel_radio_buttons input:checked {
     background-color: #27221E; /* Example checked state */
 }
 
+main #nossos_tratamentos {
+    margin-bottom: -6vw;
+}
+
 main #nossos_tratamentos h2{
     width: 100%;
-    padding: 2vw 0;
+    padding: 1vw 0;
     font-size: 1.65vw;
     display: flex;
     text-transform: uppercase;
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: #857854;
+    background-color: #312C25;
     color: white;
 }
 
 main #nossos_tratamentos #todos_tratamentos {
-    width: 65vw;
+    width: 80vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; 
 }
 
 main #nossos_tratamentos #todos_tratamentos #tratamento h3 {
@@ -284,22 +331,8 @@ main #avaliacoes #carousel_radio_buttons_avaliacao input:checked {
 
 main #avaliacoes h2 {
     width: 100%;
-    padding: 2vw 0;
-    font-size: 1.65vw;
-    margin: 8vw 0 2vw;
-    display: flex;
-    text-transform: uppercase;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: #46392A;
-    color: white;
-}
-
-main #missao h2 {
-    width: 100%;
-    padding: 2vw 0;
-    font-size: 1.65vw;
+    padding: 1vw 0;
+    font-size: 2vw;
     margin: 8vw 0 2vw;
     display: flex;
     text-transform: uppercase;
@@ -308,24 +341,6 @@ main #missao h2 {
     justify-content: center;
     background-color: #312C25;
     color: white;
-}
-
-main #missao div {
-    position: relative;
-    width: 45vw;
-    background-color: #1E1E1E;
-    font-size: 2vw;
-    color: #D2AB58;
-    margin-left: 35vw;
-    margin-top: 6vw;
-    padding: 2vw 2vw 2vw 5vw;
-}
-
-main #missao div img{
-    position: absolute;
-    width: 23vw;
-    left: -20vw;
-    top: -3vw;
 }
 
 main #divisor {
@@ -340,12 +355,15 @@ footer #planos_odontologicos {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 10vw;
 }
 
 footer #planos_odontologicos h3 {
-    font-size: 3vw;
+    font-size: 2vw;
+    width: 100%;
+    background-color: #312C25;
     color: white;
-    margin-bottom: 4vw;
+    padding: 1vw 0;
 }
 
 footer #planos_odontologicos #planos {
@@ -441,7 +459,6 @@ footer #endereco {
 
 footer #endereco p {
     font-size: 2vw;
-    color: white;
     font-weight: bold;
 }
 
@@ -455,8 +472,8 @@ footer #endereco p {
 
 @media (max-width: 800px) {
     header img {
-        width: 75vw;
-        height: 45vw;
+        width: 33vw;
+        height: 24vw;
     }
     
     main #carousel_clareamento_dental #carousel_radio_buttons input {
@@ -467,8 +484,15 @@ footer #endereco p {
         width: 1.5vw;
     }
 
+    main #main_part {
+        margin-bottom: 8vw;
+    }
+
     main #main_part h1{
-        font-size: 10vw;
+        font-size: 3vw;
+        margin-top: 4vw;
+        margin-bottom: 10vw;
+        padding: 2vw 0;
     }
 
     main #main_part div {
@@ -485,10 +509,11 @@ footer #endereco p {
     }
 
     main #main_part button {
-        width: 50vw;
-        padding: 4vw 0;
-        font-size: 4vw;
-        margin-top: 8vh;
+        width: 40vw;
+        padding: 2.5vw 0;
+        font-size: 2.5vw;
+        font-weight: bold;
+        margin-top: 4vh;
         border-radius: 1vw;
     }
 
@@ -497,7 +522,7 @@ footer #endereco p {
     }
 
     main #clareamento_dental h2 {
-        font-size: 6vw;
+        font-size: 12vw;
     }
 
     main #clareamento_dental p {
@@ -513,17 +538,13 @@ footer #endereco p {
     }
     
     main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container {
-        padding: 20vw 30vw;
+        padding: 15vw 25vw;
         margin-bottom: 5vw;
     }
 
     main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img {
-        width: 60vw;
-        height: 42.5vw;
-    }
-
-    main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img.active{
-        opacity: 1;
+        width: 50vw;
+        height: 35vw;
     }
 
     main #carousel_clareamento_dental #carousel_content i {
@@ -534,27 +555,86 @@ footer #endereco p {
         width: 30vw;
     }
 
-    main #nossos_tratamentos #todos_tratamentos {
-        width: 80vw;
-    }
-
-    main #nossos_tratamentos h2,
-    main #avaliacoes h2,
-    main #missao h2 {
-        font-size: 4vw;
-    }
-
-    main #nossos_tratamentos #todos_tratamentos #tratamento h3{
-        font-size: 4vw;
-    }
-
-    main #nossos_tratamentos #todos_tratamentos #tratamento img {
-        width: 30vw;
+    main #avaliacoes {
+        margin-bottom: 6vw;
     }
 
     main #avaliacoes h2 {
-        font-size: 4vw;
+        margin-bottom: 2vw;
     }
+
+    main #carousel_clareamento_dental {
+        margin-bottom: 11vw;
+    }
+
+    main #carousel_clareamento_dental h2 {
+        margin-bottom: 2vw;
+    }
+
+    main #carousel_clareamento_dental h2,
+    main #nossos_tratamentos h2,
+    main #avaliacoes h2,
+    main #missao h2,
+    footer #planos_odontologicos h3 ,
+    main #main_part h1{
+        font-size: 3.5vw;
+        padding: 2vw;
+        font-weight: bold;
+    }
+
+    main #missao h2 {
+        margin-bottom: 15vw;
+    }
+
+    main #missao {
+        margin-bottom: 35vw;
+    }
+
+    main #missao div {
+        height: 40vw;
+        width: 55vw;
+        padding: 0 6vw;
+    }
+
+    main #missao div img {
+        width: 30vw;
+        left: -25vw;
+        top: -10vw;
+    }
+
+    main #missao div p {
+        font-size: 2.2vw;
+    }
+
+    main #nossos_tratamentos {
+        margin-bottom: 6vw;
+    }
+
+    main #nossos_tratamentos h2 {
+        margin-bottom: 4vw;
+    }
+
+    main #nossos_tratamentos #todos_tratamentos {
+        width: 85vw;
+        margin-left: 5vw;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    main #nossos_tratamentos #todos_tratamentos #tratamento {
+        margin: .2vw;
+        width: 30vw;
+    }
+
+    main #nossos_tratamentos #todos_tratamentos #tratamento h3{
+        font-size: 3vw;
+    }
+
+    main #nossos_tratamentos #todos_tratamentos #tratamento img {
+        width: 20vw;
+    }
+
     main #avaliacoes #carousel_content {
         display: flex;
         align-items: center;
@@ -589,17 +669,57 @@ footer #endereco p {
         font-size: 5vw;
     }
 
-    footer #planos_odontologicos h3{
-        font-size: 6vw;
+    footer #planos_odontologicos #planos{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 6vw 0;
     }
 
-    footer #planos_odontologicos #planos img
-    {
-        width: 30vw;
+    footer #planos_odontologicos img#porto {
+        width: 20vw;
+        margin: 0 6vw;
+    }
+
+    footer #planos_odontologicos #planos img:last-of-type {
+        width: 15vw;
+        height: 10vw;
     }
 
     footer #planos_odontologicos #planos img:first-of-type {
-        width: 340vw;
+        width: 25vw;
+    }
+
+    footer #agendar_form {
+        height: 70vw;
+        width: 50vw;
+        margin-top: -12vw;
+        margin-bottom: -6vw;
+    }
+
+    footer #agendar_form h2 {
+        top: 16vw;
+        font-size: 4.75vw;
+    }
+
+    footer #agendar_form h3 {
+        top: 24vw;
+        font-size: 2.75vw;
+    }
+
+    footer #agendar_form button {
+        top: 42vw;
+        font-size: 2.75vw;
+        width: 40vw;
+        padding: 2vw 0;
+    }
+
+    footer #redes_sociais i{
+        font-size: 6vw;
+    }
+
+    footer #endereco p{
+        font-size: 4vw;
     }
 }
 
