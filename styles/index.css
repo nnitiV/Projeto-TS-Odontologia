@@ -53,14 +53,14 @@ main {
 
 main #missao {
     height: 40vw;
-    margin-bottom: 25vw;
+    margin-bottom: 5vw;
 }
 
 main #missao h2 {
     width: 100%;
     padding: 1.25vw 0;
     font-size: 2vw;
-    margin: 2vw 0 12vw;
+    margin: 2vw 0 5vw;
     display: flex;
     text-transform: uppercase;
     align-items: center;
@@ -743,6 +743,57 @@ footer #endereco p {
     main #avaliacoes #carousel_radio_buttons_avaliacao input {
         width: 1.8vw;
         height: .5vw;
+    }
+
+    main #missao {
+        margin-bottom: 60vw;
+    }
+
+    main #missao div {
+        width: 60vw;
+        height: 65vw;
+        margin-top: 0vw;
+    }
+
+    main #missao div p {
+        font-size: 3vw;
+    }
+
+    footer #agendar_form h3 {
+        font-size: 3.5vw;
+    }
+
+    footer #agendar_form button {
+        top: 45vw;
+        font-size: 3.2vw;
+    }
+
+    footer #redes_sociais i {
+        font-size: 7.75vw;
+    }
+
+    footer #planos {
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    footer #planos_odontologicos #planos img:first-of-type {
+        width: 35vw;
+        height: 30vw;
+        margin-bottom: -8vw;
+    }
+
+    footer #planos_odontologicos #planos img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    footer #planos_odontologicos #planos img:last-of-type {
+        width: 25vw;
+        height: 15vw;
     }
 }
 
