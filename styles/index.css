@@ -616,7 +616,7 @@ footer #endereco p {
 
     main #nossos_tratamentos #todos_tratamentos {
         width: 85vw;
-        margin-left: 5vw;
+        margin: 0 auto 0 4.25vw;
         padding: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
