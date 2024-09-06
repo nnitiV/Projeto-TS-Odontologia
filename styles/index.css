@@ -761,7 +761,7 @@ footer #endereco p {
         margin-left: 36vw;
         height: 73vw;
         margin-top: -8vw;
-        padding: 6vw 1vw 6vw 16vw;
+        padding: 14vw 1vw 14vw 16vw;
         margin-left: 0 auto;
     }
 
@@ -826,14 +826,14 @@ footer #endereco p {
     }
 
     main #missao div {
-        width: 62.5vw;
-        height: 80vw;
-        margin-left: 38vw;
-        margin-top: -6vw;
-        padding-top: 2vw;
-        padding-left: 14vw;
-        margin-left: 37.5vw;
+        width: 63vw;
+        margin-left: 37vw;
+        height: 73vw;
+        margin-top: -8vw;
+        padding: 40vw 1vw 40vw 16vw;
+        margin-left: 0 auto;
     }
+   
 
     main #missao div p {
         font-size: 3.25vw;
