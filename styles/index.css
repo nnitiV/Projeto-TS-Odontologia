@@ -804,20 +804,27 @@ footer #endereco p {
         height: 1vw;
     }
 
+    main #missao {
+        margin-bottom: 65vw;
+    }
+
     main #missao div {
         margin-left: 38vw;
+        margin-top: -6vw;
+        padding-top: 2vw;
     }
 
     main #missao div img {
         width: 40vw;
         height: 55vw;
         left: -35vw;
+        top: -4vw;
     }
 
     main #missao div {
         width: 60vw;
-        height: 70vw;
-        margin-top: 0vw;
+        height: 78vw;
+        margin-left: 37.5vw;
     }
 
     main #missao div p {
