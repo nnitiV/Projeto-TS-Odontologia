@@ -533,18 +533,21 @@ footer #endereco p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 80vw;
-        height: 40vw;
+        width: 90vw;
+        height: 50vw;
     }
     
     main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container {
         padding: 15vw 25vw;
-        margin-bottom: 5vw;
+        margin-bottom: 15vw;
+    }
+    main #carousel_clareamento_dental #carousel_content #clareamento_carousel_left {
+        margin-right: -9vw;
     }
 
     main #carousel_clareamento_dental #carousel_content #carousel_clareamento_images_container img {
-        width: 50vw;
-        height: 35vw;
+        width: 60vw;
+        height: 45vw;
     }
 
     main #carousel_clareamento_dental #carousel_content i {
@@ -640,8 +643,12 @@ footer #endereco p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 80vw;
-        height: 40vw;
+        width: 90vw;
+        height: 60vw;
+        margin-top: -8vw;
+    }
+    main #avaliacoes #carousel_content #avaliacao_carousel_left {
+        margin-right: -8vw;
     }
 
     main #avaliacoes #carousel_content #carousel_avaliacoes_images_container {
@@ -650,8 +657,8 @@ footer #endereco p {
     }
 
     main #avaliacoes #carousel_content #carousel_avaliacoes_images_container img {
-        width: 50vw;
-        height: 27vw;
+        width: 60vw;
+        height: 35vw;
     }
 
     main #avaliacoes #carousel_content i{
