@@ -844,4 +844,8 @@ footer #endereco p {
         font-size: 3.5vw;
         width: 50vw;
     }
+
+    body #floating_whatsapp { 
+        font-size: 10vw;
+    }
 }
