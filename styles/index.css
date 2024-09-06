@@ -740,6 +740,11 @@ footer #endereco p {
     footer #endereco p{
         font-size: 4vw;
     }
+
+    body #floating_whatsapp {
+        font-size: 10vw;
+        z-index: 3;
+    }
 }
 
 @media (max-width: 750px) {
