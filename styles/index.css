@@ -824,6 +824,11 @@ footer #endereco p {
         width: 25vw;
         height: 15vw;
     }
+
+    main #nossos_tratamentos #todos_tratamentos {
+        margin-left: 4vw;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -847,6 +852,7 @@ footer #endereco p {
         left: -37vw;
         top: -4vw;
     }
+
 
     main #missao div {
         width: 63vw;
