@@ -822,6 +822,10 @@ footer #endereco p {
         height: 1vw;
     }
 
+    main #main_part h1 {
+        font-size: 3vw;
+    }
+
     main #missao {
         margin-bottom: 65vw;
     }
