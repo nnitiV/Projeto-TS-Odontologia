@@ -766,7 +766,7 @@ footer #endereco p {
     }
 
     main #missao div p {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
 
     footer #agendar_form h3 {
@@ -833,9 +833,8 @@ footer #endereco p {
         padding: 40vw 1vw 40vw 16vw;
         margin-left: 0 auto;
     }
-   
 
-    main #missao div p {
+    main #missao div p{
         font-size: 3.25vw;
     }
     
