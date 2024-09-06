@@ -594,7 +594,7 @@ footer #endereco p {
     }
 
     main #missao div {
-        height: 50vw;
+        height: 45vw;
         width: 55vw;
         padding: 0 6vw;
     }
@@ -759,7 +759,7 @@ footer #endereco p {
 
     main #missao div img {
         width: 50vw;
-        height: 70vw;
+        height: 75vw;
         top: 0;
         left: -35vw;
     }
@@ -828,7 +828,7 @@ footer #endereco p {
 
     main #missao div img {
         width: 50vw;
-        height: 75vw;
+        height: 80vw;
         left: -37vw;
         top: -4vw;
     }
