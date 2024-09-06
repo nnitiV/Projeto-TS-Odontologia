@@ -816,12 +816,12 @@ footer #endereco p {
 
     main #missao div {
         width: 60vw;
-        height: 60vw;
+        height: 70vw;
         margin-top: 0vw;
     }
 
     main #missao div p {
-        font-size: 3vw;
+        font-size: 3.25vw;
     }
     
     main #main_part div img {
