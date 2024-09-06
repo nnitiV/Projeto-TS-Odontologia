@@ -623,8 +623,8 @@ footer #endereco p {
     }
     
     main #nossos_tratamentos #todos_tratamentos #tratamento {
-        margin: 0;
-        width: 30vw;
+        margin-left: -8vw;
+        width: 40vw;
     }
 
     main #nossos_tratamentos #todos_tratamentos #tratamento h3{
